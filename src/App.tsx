@@ -7,6 +7,7 @@ import CareTaskList from './components/CareTaskList';
 import OrchardStageBadge from './components/OrchardStageBadge';
 import HarvestOutlook from './components/HarvestOutlook';
 import PlantingCounter from './components/PlantingCounter';
+import PlantingDayTracker from './components/PlantingDayTracker';
 
 export default function App() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
       <Section id="care" title="Orchard care today">
         <CareTaskList tasks={farm.careTasks} />
       </Section>
-
+      <PlantingDayTracker />
       <PlantingCounter />
     </main>
   );
