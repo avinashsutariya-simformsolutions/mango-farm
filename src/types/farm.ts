@@ -8,7 +8,6 @@ export type Farm = {
   firstPlantingYear: number;
   totalTrees: number;
   varieties: string[];
-  careTasks: string[];
   orchardStage: OrchardStage;
   expectedFirstHarvestYear: number;
 };

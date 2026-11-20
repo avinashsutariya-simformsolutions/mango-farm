@@ -7,7 +7,6 @@ export const farm: Farm = {
   firstPlantingYear: 2026,
   totalTrees: 540,
   varieties: ['Alphonso', 'Kesar', 'Totapuri', 'Vanraj', 'Mallika', 'Miyazaki'],
-  careTasks: [],
   orchardStage: 'growing',
   expectedFirstHarvestYear: 2029, // placeholder: replace with your own estimate
 };
