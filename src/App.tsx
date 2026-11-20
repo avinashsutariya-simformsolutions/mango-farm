@@ -3,7 +3,7 @@ import { farm } from './data/farm';
 import FarmHeader from './components/FarmHeader';
 import Section from './components/Section';
 import VarietyList from './components/VarietyList';
-import CareTaskList from './components/CareTaskList';
+import CareChecklist from './components/CareChecklist';
 import OrchardStageBadge from './components/OrchardStageBadge';
 import HarvestOutlook from './components/HarvestOutlook';
 import PlantingCounter from './components/PlantingCounter';
@@ -27,9 +27,8 @@ export default function App() {
         <VarietyList varieties={farm.varieties} />
       </Section>
 
-      <Section id="care" title="Orchard care today">
-        <CareTaskList tasks={farm.careTasks} />
-      </Section>
+      <CareChecklist />
+
       <PlantingDayTracker />
       <PlantingCounter />
     </main>
